@@ -1,0 +1,15 @@
+/* SignUp.module.css - Modular Scoped Styles for SignUp Page */
+
+.signUpContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+.innerWrap {
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}

@@ -1,0 +1,50 @@
+/* Feed.module.css - Modular Scoped Styles for Feed Page */
+
+.feedContainer {
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+.headerCard {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+  border-left: 4px solid var(--richfield-navy, #0c1e47);
+  padding: 1.25rem;
+}
+
+.badge {
+  display: inline-block;
+  background-color: #f1f5f9;
+  color: var(--richfield-navy, #0c1e47);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #cbd5e1;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--richfield-navy, #0c1e47);
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.guestBanner {
+  background-color: #fffbeb;
+  border: 1px solid #fef3c7;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}

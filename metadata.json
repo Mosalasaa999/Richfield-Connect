@@ -1,0 +1,6 @@
+{
+  "name": "Richfield Connect",
+  "description": "A modern React Single-Page Application for Richfield Graduate Institute of Technology students to connect, share academic ideas, and collaborate.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

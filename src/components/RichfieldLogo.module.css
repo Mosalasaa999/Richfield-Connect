@@ -1,0 +1,53 @@
+/* RichfieldLogo.module.css - Modular Scoped Styles for Richfield Logo */
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+}
+
+.emblemWrapper {
+  position: relative;
+  width: 2.25rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.05));
+}
+
+.textGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.brandName {
+  font-weight: 900;
+  letter-spacing: -0.025em;
+  font-size: 1.25rem;
+  line-height: 1;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.brandNameLight {
+  color: #ffffff;
+}
+
+.brandNameDark {
+  color: var(--richfield-navy, #0c1e47);
+}
+
+.tagline {
+  font-size: 10px;
+  line-height: 1.25;
+  font-weight: 500;
+  margin-top: 0.125rem;
+}
+
+.taglineLight {
+  color: #cbd5e1;
+}
+
+.taglineDark {
+  color: #475569;
+}

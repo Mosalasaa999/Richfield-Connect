@@ -1,0 +1,128 @@
+/* Home.module.css - Modular Scoped Styles for Home Page */
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+.heroCard {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  color: #ffffff;
+  background: linear-gradient(135deg, #0c1e47 0%, #0a1738 50%, #162f6b 100%);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border-bottom: 4px solid var(--richfield-red, #e52427);
+}
+
+.heroContent {
+  padding: 2rem;
+  position: relative;
+  z-index: 10;
+  max-width: 56rem;
+}
+
+@media (min-width: 640px) {
+  .heroContent {
+    padding: 3rem;
+  }
+}
+
+.pillBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #e2e8f0;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 1.25rem;
+}
+
+.heroHeading {
+  font-size: 1.875rem;
+  font-weight: 900;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+@media (min-width: 640px) {
+  .heroHeading {
+    font-size: 2.5rem;
+  }
+}
+
+.primaryCta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--richfield-red, #e52427);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.875rem;
+  padding: 0.875rem 1.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: all 0.15s ease;
+}
+
+.primaryCta:hover {
+  background-color: #c9181b;
+  transform: translateY(-1px);
+}
+
+.secondaryCta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.875rem;
+  padding: 0.875rem 1.25rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+  transition: background-color 0.15s ease;
+}
+
+.secondaryCta:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.featureCard {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.15s ease;
+}
+
+.featureCard:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.featureAccent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: var(--richfield-navy, #0c1e47);
+  transition: background-color 0.2s ease;
+}
+
+.featureCard:hover .featureAccent {
+  background-color: var(--richfield-red, #e52427);
+}
