@@ -251,6 +251,5 @@ I, **Ayanda Courtney Mabale** (Student Number: **2026119**), hereby declare that
 2. All external libraries, references, and frameworks utilized (React 19, React Router v6, Tailwind CSS, Lucide Icons, Vite) have been acknowledged and properly documented.
 3. No portions of this code have been plagiarized, copied from peers, or submitted for any other academic assessment.
 
-**Student Signature:** *Ayanda Courtney Mabale*  
 **Date:** 21 September 2026  
 **Institution:** Richfield Graduate Institute of Technology (Pty) Ltd
