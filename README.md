@@ -2,11 +2,7 @@
 
 **Richfield Graduate Institute of Technology (Pty) Ltd**  
 **Faculty of Information Technology & Business Science**  
-**Module:** Web Technology 512 (WEB512) — 2nd Semester  
 **Assessment Title:** Development of "Richfield Connect": A Component-Based React Single-Page Application for Academic Collaboration  
-**Student Name & Surname:** Ayanda Courtney Mabale  
-**Student Number:** 2026119  
-**Submission Date:** 21 September 2026  
 
 ---
 
